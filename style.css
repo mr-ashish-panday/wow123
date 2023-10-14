@@ -63,6 +63,7 @@ html,body{
     color: #fff;
 }
 #hero{
+    margin-top: 25px;
     position: absolute;
     top: 50%;
     left: 0;
@@ -75,10 +76,17 @@ html,body{
     min-width: 50%;
 }
 #heroleft .elem{
+    position: relative;
     height: 9vw;
     overflow: hidden;
 }
+#heroleft .elem h1:nth-child(1){ 
+    top: 0;
+}
 #heroleft .elem h1{ 
+    position: absolute;
+    top: 100%;
+    left: 0;
     line-height: .9;
         font-family: "kajiro";
         color: white;
